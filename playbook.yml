@@ -18,4 +18,4 @@
   - name: Build Dockerfile
     command: chdir=/tmp/gitrepo docker build -t addressbook:ansible .
   - name: run Image
-    command: docker run -itd -P addressbook:ansible
+    command: docker run -itd -P addressbook:aaa
